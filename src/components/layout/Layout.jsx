@@ -4,9 +4,9 @@ import Navbar from "../navbar/Navbar";
 /* eslint-disable react/prop-types */
 const Layout = ({ children }) => {
     return (
-        <div className="bg-black text-white">
+        <div>
             <Navbar />
-            <div className="main-content min-h-screen bg-gray-900 text-gray-200">
+            <div className="main-content min-h-screen">
                 {children}
             </div>
             <Footer />

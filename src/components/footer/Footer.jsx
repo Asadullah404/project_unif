@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             {/* footer  */}
-            <footer className="text-gray-300 body-font bg-black">
+            <footer className="text-gray-600 body-font bg-pink-600">
                 {/* main  */}
                 <div className="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
                     {/* logo  */}
@@ -12,11 +12,11 @@ const Footer = () => {
                         <span className="text-xl font-bold">E-PAKISTAN</span>
                     </a>
                     {/* para  */}
-                    <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-700 sm:py-2 sm:mt-0 mt-4">
+                    <p className="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
                         © 2024 epakistan —
                         <Link
                         to={'/'}
-                            className="text-gray-400 ml-1"
+                            className="text-gray-100 ml-1"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
@@ -27,7 +27,7 @@ const Footer = () => {
                     {/* media icon  */}
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         {/* facebook  */}
-                        <a className="text-gray-400 hover:text-gray-300 cursor-pointer">
+                        <a className="text-gray-100 cursor-pointer">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -41,7 +41,7 @@ const Footer = () => {
                         </a>
 
                         {/* twitter  */}
-                        <a className="ml-3 text-gray-400 hover:text-gray-300 cursor-pointer">
+                        <a className="ml-3 text-gray-100 cursor-pointer">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -55,7 +55,7 @@ const Footer = () => {
                         </a>
 
                         {/* instagram  */}
-                        <a className="ml-3 text-gray-400 hover:text-gray-300 cursor-pointer">
+                        <a className="ml-3 text-gray-100 cursor-pointer">
                             <svg
                                 fill="none"
                                 stroke="currentColor"
@@ -71,7 +71,7 @@ const Footer = () => {
                         </a>
 
                         {/* linkedIn  */}
-                        <a className="ml-3 text-gray-400 hover:text-gray-300 cursor-pointer">
+                        <a className="ml-3 text-gray-100 cursor-pointer">
                             <svg
                                 fill="currentColor"
                                 stroke="currentColor"
@@ -96,4 +96,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
